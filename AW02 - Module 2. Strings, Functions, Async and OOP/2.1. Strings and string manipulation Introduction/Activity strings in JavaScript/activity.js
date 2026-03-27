@@ -10,5 +10,11 @@ Write a script that does the following:
 */
 
 let myname = "Fredrik Sagen";
-
 const splitname = myname.split(' ');
+console.log(splitname[0]); // Fredrik
+
+let joined = splitname.join(' - ');
+console.log(joined.length); // Fredrik - Sagen
+
+console.log(myname[0]); // F
+console.log(myname[myname.length -1]); // n
