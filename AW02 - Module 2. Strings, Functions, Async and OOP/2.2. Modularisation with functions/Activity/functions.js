@@ -1,56 +1,81 @@
 //introduction to functions
-/*
-function getValidNumber() {
+// ----------------------------
 
-    let input = prompt("Enter a number:");
-    let number = Number(input);
+// function getValidNumber() {
 
-    while (isNaN(number)) {
-        input = prompt("That’s not a number. Try again:");
-        number = Number(input);
-    }
-    return number;
-}
+//     let input = prompt("Enter a number:");
+//     let number = Number(input);
 
-const userNumber = getValidNumber();
-console.log("You entered:", userNumber);
+//     while (isNaN(number)) {
+//         input = prompt("That’s not a number. Try again:");
+//         number = Number(input);
+//     }
+//     return number;
+// }
+
+// const userNumber = getValidNumber();
+// console.log("You entered:", userNumber);
 
 //function parameters
+// ----------------------------
 
-function greetUsers(name) {
-    console.log(`Hello, ${name}!`);
-        }
+// function greetUsers(name) {
+//     console.log(`Hello, ${name}!`);
+//         }
 
-function greetManyUsers(...names) {
-    for (const name of names) {
-        greetUsers(name);
-    }
-}
+// function greetManyUsers(...names) {
+//     for (const name of names) {
+//         greetUsers(name);
+//     }
+// }
 
-greetManyUsers("Ola", "kari", "knut");
+// greetManyUsers("Ola", "kari", "knut");
 
 
 //Functions as values
+// ----------------------------
 
-function shoutHello() {
-    console.log("HELLO!");
-}
+// function shoutHello() {
+//     console.log("HELLO!");
+// }
 
-const whisperHello = function() {
-    console.log("hello...");
-}
+// const whisperHello = function() {
+//     console.log("hello...");
+// }
 
-shoutHello();
-whisperHello();
+// shoutHello();
+// whisperHello();
 
-let saySomething = shoutHello;
+// let saySomething = shoutHello;
 
-saySomething();
+// saySomething();
 
-saySomething = whisperHello;
-saySomething();
+// saySomething = whisperHello;
+// saySomething();
 
-*/
+
 
 // Arrow functions
+// ----------------------------
 
+// function performOnEach(numbers, operation) {
+//     const results = [];
+
+//     for (const num of numbers) {
+//         results.push(operation(num));
+//     }
+//     return results;
+// }
+
+// console.log(performOnEach([1, 2, 3], (num) => num * 2)); // [2, 4, 6]
+// console.log(performOnEach([1, 2, 3], (num) => num / 2)); // [0.5, 1, 1.5]
+// console.log(performOnEach([1, 2, 3], (num) => num ** 2)); // [1, 4, 9]
+// console.log(performOnEach([1, 2, 3], (num) => -num)); // [-1, -2, -3]
+
+function sayHello() {
+   console.log("Hello.");
+}
+
+function sayGoodbye() {
+   console.log("Goodbye.");
+}
