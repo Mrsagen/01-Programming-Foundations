@@ -73,9 +73,11 @@
 // console.log(performOnEach([1, 2, 3], (num) => -num)); // [-1, -2, -3]
 
 function sayHello() {
-   console.log("Hello.");
+   console.log("Hello there!.");
 }
 
-function sayGoodbye() {
-   console.log("Goodbye.");
-}
+const button = document.getElementById("goodbyeBtn");
+
+button.addEventListener("click", () => {
+   console.log("goodbye!");
+});
