@@ -10,3 +10,4 @@ const whisper = (name) => name.toLowerCase();
 console.log(formatName("kari", titleCase)); // Kari
 console.log(formatName("kari", shout));     // KARI
 console.log(formatName("KARI", whisper));   // kari
+
