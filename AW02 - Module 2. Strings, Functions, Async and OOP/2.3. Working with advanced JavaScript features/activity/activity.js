@@ -44,6 +44,6 @@ console.log(productPrices);
  productNames.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
 console.log(productNames);*/
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-console.log(numbers.filter(num => num > 5).map(num => num * 2).reduce((acc, num) => acc + num, 0));
+// console.log(numbers.filter(num => num > 5).map(num => num * 2).reduce((acc, num) => acc + num, 0));
