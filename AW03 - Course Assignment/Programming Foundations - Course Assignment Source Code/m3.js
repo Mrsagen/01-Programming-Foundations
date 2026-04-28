@@ -117,6 +117,7 @@ function spliceExample() {
     //text from: https://www.lipsum.com/ - 100 words
     const array = spliceText.split(" ");    
     console.log(array);
+    
     const length = parseInt(prompt("Specify the word's length:"));
     if(isNaN(length) || length <= 0) {  
         alert("Wrong length");
